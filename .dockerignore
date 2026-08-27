@@ -1,0 +1,16 @@
+node_modules
+.next
+out
+build
+.git
+.env
+.env.*
+!.env.example
+.DS_Store
+*.log
+.vercel
+*.tsbuildinfo
+Dockerfile
+.dockerignore
+README.md
+tests
