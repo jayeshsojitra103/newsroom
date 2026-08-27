@@ -56,7 +56,7 @@ export function Controls({
             <label htmlFor="source" className="sr-only">
               Filter by source
             </label>
-            <select
+            {/* <select
               id="source"
               value={query.source}
               disabled={sources.length === 0}
@@ -71,7 +71,7 @@ export function Controls({
                   {site}
                 </option>
               ))}
-            </select>
+            </select> */}
           </>
         )}
 
